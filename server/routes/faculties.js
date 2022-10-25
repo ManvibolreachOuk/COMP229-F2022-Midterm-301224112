@@ -38,9 +38,6 @@ router.get("/add", (req, res, next) => {
 
 // POST process the faculty  Details page and create a new faculty  - CREATE
 router.post("/add", (req, res, next) => {
-  /*****************
-   * ADD CODE HERE *
-   *****************/
    let newfaculties = faculties({
     Facultyid : req.body.Facultyid,
     Facultyname : req.body.Facultyname,
@@ -60,9 +57,6 @@ router.post("/add", (req, res, next) => {
 
 // GET the faculty  Details page in order to edit an existing faculty
 router.get("/edit/:id", (req, res, next) => {
-  /*****************
-   * ADD CODE HERE *
-   *****************/
    let id = req.params.id; //id of actual object
    faculties.findById(id, (err, facultiestoedit) => {
     if (err) {
@@ -77,9 +71,6 @@ router.get("/edit/:id", (req, res, next) => {
 
 // POST - process the information passed from the details form and update the document
 router.post("/edit/:id", (req, res, next) => {
-  /*****************
-   * ADD CODE HERE *
-   *****************/
    let id = req.params.id; //id of actual object
    
    let updatefaculties = faculties({
@@ -102,9 +93,6 @@ router.post("/edit/:id", (req, res, next) => {
 
 // GET - process the delete
 router.get("/delete/:id", (req, res, next) => {
-  /*****************
-   * ADD CODE HERE *
-   *****************/
    let id = req.params.id;
    faculty.remove({ _id: id }, (err) => {
     if (err) {
