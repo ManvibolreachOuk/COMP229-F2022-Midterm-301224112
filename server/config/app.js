@@ -1,3 +1,12 @@
+//----------------------------------
+//File name: app.js file
+//Author's Name: Manvibolreach Ouk
+//Student ID: 301224112
+//Web App name: Faculty Information
+//Date: October 24, 2022
+//----------------------------------
+
+
 // moddules for node and express
 let createError = require("http-errors");
 let express = require("express");

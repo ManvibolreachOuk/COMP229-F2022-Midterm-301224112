@@ -1,3 +1,11 @@
+//----------------------------------
+//File name: server.js
+//Author's Name: Manvibolreach Ouk
+//Student ID: 301224112
+//Web App name: Faculty Information
+//Date: October 24, 2022
+//----------------------------------
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');

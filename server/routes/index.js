@@ -1,3 +1,11 @@
+//----------------------------------
+//File name: index.js
+//Author's Name: Manvibolreach Ouk
+//Student ID: 301224112
+//Web App name: Faculty Information
+//Date: October 24, 2022
+//----------------------------------
+
 // modules required for routing
 let express = require("express");
 let router = express.Router();
