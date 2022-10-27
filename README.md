@@ -9,3 +9,7 @@ How to deploy MongoDB on Heroku [MongoDB](https://www.mongodb.com/developer/prod
 ## This repo has a video on its readme: P
 
 This is a [video explanation](https://youtu.be/smC336GGh-Q).
+
+## This Heroku Link to the Application
+
+This is a [Heroku App](https://comp229-f2022-midterm-30122411.herokuapp.com/faculties).
